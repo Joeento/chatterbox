@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('chatterbox.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {
@@ -11,7 +11,7 @@ angular.module('myApp.view1', ['ngRoute'])
 
 }]);
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('chatterbox.view2', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {
